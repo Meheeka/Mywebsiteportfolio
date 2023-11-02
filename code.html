@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="" X-UA-Compatible" content="" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meheeka Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(198, 198, 18);
+            color: white;
+            font-family: 'poppins',sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(151, 151, 77);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(60, 60, 189);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .FirstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+        .leftsection{
+            background-color: rgb(118, 131, 14);
+            font-size: 2rem;
+            margin: 0px 0;
+        }
+       .rightsection{
+        justify-content:space-between;
+       }
+       .FirstSection > div{
+            width: 30%;
+        }
+        .rightsection img{
+            width:60%; margin:50 0;
+        }
+        .Purple{
+            color: rgb(70, 201, 70);
+        }
+        #element{
+            color:rgb(235, 133, 50);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.5rem;
+        }
+        .textgrey{
+            color: rgb(62, 56, 56);
+        }
+        .secondsection .box{
+            background: white;
+            width:80vw;
+            height: 2px;
+            margin:56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height:93px;
+            width: 1px;
+            background-color: white;
+           margin:0 100px;
+        }
+        .secondsection .verticals{
+            height:93px;
+            width: 1px;
+            background-color: white;
+           margin:0 150px;
+        }
+        .image-top{
+            width:100px;
+            position:relative;
+            top: -72px;
+            left:-50px ;
+        }
+        .verticaltitle{
+            position: relative;
+            top:50px;
+            width:100px;
+            font-size: 30px;
+            left:-150px;
+            
+        }
+        .verticaltitled{
+            position: relative;
+            top:50px;
+            width:100px;
+            font-size: 30px;
+            left:-50px;
+           
+           
+        }
+    .verticaltitlec{
+        position: relative;
+            top:50px;
+            width:100px;
+            font-size: 30px;
+            left:25px;
+    }
+        .verticaldesc{
+            position: relative;
+            top:100px;
+            color:blueviolet;
+            width:100px;
+            font-size:19px;
+              
+        }
+        .verticaldesch{
+            position: relative;
+            top:100px;
+            color:blueviolet;
+            width:100px;
+            font-size:19px;
+            left:-100px;
+        }
+        .verticaldescs{
+            position: relative;
+            top:100px;
+            color:blueviolet;
+            width:100px;
+            font-size:19px;
+            left:105px;
+        }
+        footer{
+            background-color: rgb(85, 134, 11);
+            height: 100px;
+        }
+        .footer{
+            display:flex;
+            margin:  122px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <div class="left">Meheeka's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Technical.html">Technical</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="otherskills.html">Other skills</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="FirstSection">
+            <div class="leftsection">
+                My name is <span class="Purple">Meheeka</span>
+                <div>I am doing my b.tech in AI</div>
+                <div>I am </div>
+                <span id="element"></span>
+            </div>
+           
+            <div class="rightsection"><img src="./My Image final.jpeg"  ></div>
+
+        </section>
+        <section class="secondsection">
+            <span class="textgrey"></span>
+            <h1>My skills include:</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./developer  pic.webp"/>
+                    <div class="verticaltitle">
+                        Front-end developing(2023-)
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./developer  pic.webp"/>
+                    <div class="verticaltitled">
+                        Digital Marketing(2021-)
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="verticals">
+                    <img class="image-top" src="./developer  pic.webp"/>
+                    <div class="verticaltitlec">
+                    Content Writing(2021-)
+                </div>
+                
+                
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Meheeka's developer portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i> a Web</i> Developer.', ' a Content Writer' ,'  into Digital Marketing'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+
+</html>
